@@ -1,8 +1,9 @@
 - targets:  # url;humanname;routing;switch
-    - http://www.google.com/;google.com;external;internetbox
-    - https://github.com/;github.com;external;internetbox
-    - https://www.apple.com/;apple.com;external;internetbox
-    # - http://192.168.1.1;internetbox;local;internetbox
-    # - http://192.168.1.42;blackdata;local;orbirouter-attic
-    # - http://192.168.1.101;orbirouter;local;orbirouter
+    # - http://www.google.com/;google.com;external;internetbox
+    # - https://github.com/;github.com;external;internetbox
+    # - https://www.apple.com/;apple.com;external;internetbox
+    - 192.192.0.1;Mikrotik;local;internetbox
+    - 192.168.101.254;Telmex101;local;internetbox
+    - 192.168.102.254;Telmex102;local;internetbox
+
 

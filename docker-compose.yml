@@ -89,3 +89,11 @@ services:
       - "^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)"
     networks:
       - back-tier
+
+  speedtest-local:
+    expose:
+      - 80
+    ports:
+      - 80:80
+    image: adolfintel/speedtest
+    restart: always
